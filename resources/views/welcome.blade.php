@@ -4,7 +4,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ config('app.name', 'Crosssift') }}</title>
+    <title>{{ config('app.name', 'Paarot') }}</title>
     <!--====== Favicon Icon ======-->
     <link rel="shortcut icon" href="images/2.png" type="image/png">
     <!-- Bootstrap CSS -->
@@ -30,7 +30,7 @@
       </div>
       <nav class="navbar navbar-expand-md bg-inverse fixed-top scrolling-navbar">
         <div class="container">
-          <a href="/" class="navbar-brand"><img src="svg/log1.jpg"style="height:100px;" alt="Applogo"></a>     
+          <a href="/" class="navbar-brand">Paarot</a>     
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav mr-auto w-100 justify-content-end">
               
@@ -53,7 +53,7 @@
                   </p>
                 @endforeach
               @endif  
-              <h2 class="head-title">Share The Happenings in Your Community!!!</h2>
+              <h2 class="head-title">Share The Happenings Around!!!</h2>
               <div class="header-button">
                 <a href="#" class="btn btn-border" data-toggle="modal" data-target="#started">Get Started</a>
               </div>
@@ -75,7 +75,7 @@
                 <ul class="menu">
                     <li><a href="#" data-toggle="modal" data-target="#terms">- Privacy policy</a></li>
                 </ul>
-                <p><a href="#" >&COPY; 2019 Crosssift</a></p>
+                <p><a href="#" >&COPY; 2020 Paarot</a></p>
           </div>              
         </div>
     </footer>
@@ -146,12 +146,12 @@
                 
                                         <div class="form-group row mb-0">
                                             <div class="col-md-12 ">
-                                                <button type="submit" class="btn btn-primary btn-block">
+                                                <button type="submit" class="btn btn-success btn-block">
                                                     {{ __('Sign In') }}
                                                 </button>
                 
                                                 @if (Route::has('password.request'))
-                                                    <a style="color:blue" class="btn btn-link" href="{{ route('password.request') }}">
+                                                    <a style="color:rgb(0, 26, 255)" class="btn btn-link" href="{{ route('password.request') }}">
                                                         {{ __('Forgot Your Password?') }}
                                                     </a>
                                                 @endif
@@ -214,7 +214,7 @@
                 
                                         <div class="form-group row mb-0">
                                             <div class="col-md-12">
-                                                <button type="submit" class="btn btn-primary btn-block">
+                                                <button type="submit" class="btn btn-success btn-block">
                                                     {{ __('Sign Up') }} link
                                                 </button>
                                               </div>

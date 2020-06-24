@@ -8,11 +8,11 @@
             <div class="col-8 offset-2">
 
                 <div class="row pt-4">
-                    <h2> Add New Post</h2>
+                    <h2> Add New Story</h2>
                 </div>
             
                 <div class="form-group row">
-                    <label for="title" class="col-md-4 col-form-label">{{ __('Post Title') }}</label>
+                    <label for="title" class="col-md-4 col-form-label">{{ __('Story Header') }}</label>
                         
                     <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') }}"  autocomplete="title" autofocus>
                         
@@ -24,7 +24,7 @@
                 </div>
 
                 <div class="row">
-                    <label for="image" class="col-md-4 col-form-label">{{ __('Post File') }}</label>
+                    <label for="image" class="col-md-4 col-form-label">{{ __('Image File') }}</label>
 
                     <input type="file" name="image" id="image" class="form-control-file">
 
@@ -36,7 +36,7 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="title" class="col-md-4 col-form-label">{{ __('Post Content') }}</label>
+                    <label for="title" class="col-md-4 col-form-label">{{ __('Story Content') }}</label>
                             
                     <textarea id="description" class="form-control @error('title') is-invalid @enderror" name="description" value="{{ old('title') }}"  autocomplete="description" rows="8"></textarea>
                             
@@ -60,7 +60,7 @@
                 </div>
 
                 <div class="row pt-4">
-                    <button class="btn btn-primary"> Add New Post</button>
+                    <button class="btn btn-success"> Add New Story</button>
                 </div>
             
             </div>

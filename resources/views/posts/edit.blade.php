@@ -14,7 +14,7 @@
                 </div>
             
                 <div class="form-group row">
-                    <label for="title" class="col-md-4 col-form-label">{{ __('Post Title') }}</label>
+                    <label for="title" class="col-md-4 col-form-label">{{ __('Story Header') }}</label>
                         
                     <input id="title" type="text" class="form-control @error('title') is-invalid @enderror" name="title" value="{{ old('title') ?? $post->title }}"  autocomplete="title" autofocus>
                         
@@ -27,7 +27,7 @@
                 
 
                 <div class="row">
-                    <label for="image" class="col-md-4 col-form-label">{{ __('Post File') }}</label>
+                    <label for="image" class="col-md-4 col-form-label">{{ __('Image File') }}</label>
 
                     <input type="file" name="image" id="image" class="form-control-file">
 
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="form-group row">
-                    <label for="title" class="col-md-4 col-form-label">{{ __('Post Content') }}</label>
+                    <label for="title" class="col-md-4 col-form-label">{{ __('Story Content') }}</label>
                             
                     <textarea id="description" class="form-control @error('title') is-invalid @enderror" name="description">{{$post->description}}</textarea>
                             
@@ -51,7 +51,7 @@
                 </div>
 
                 <div class="row pt-4">
-                    <button class="btn btn-primary">Update Post</button>
+                    <button class="btn btn-success">Update Post</button>
                 </div>
             </div>
         </div>

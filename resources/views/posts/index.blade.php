@@ -93,7 +93,7 @@
                             <input id="post_id" type="hidden" value="{{$post->user->id}}" name="user_id">                              
                             <input id="post_id" type="hidden" value="{{Auth()->user()->id}}" name="user_id">                             
                             <input id="post_id" type="hidden" value="{{Auth()->user()->name}}" name="user_name">                             
-                            <button type="submit" class="btn btn-outline-primary btn-sm">Post</button>
+                            <button type="submit" class="btn btn-success btn-sm">Post</button>
                         </div>
                     </form>
                 </div>

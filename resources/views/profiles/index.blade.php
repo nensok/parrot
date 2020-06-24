@@ -15,7 +15,7 @@
                 </div>
 
                @can('update', $user->profile)
-                 <a href="/p/create" class="btn btn-outline-primary btn-sm"><i class="fas fa-pen"></i> Add New Post</a>  
+                 <a href="/p/create" class="btn btn-outline-success btn-sm"><i class="fas fa-pen"></i> Add New Post</a>  
                @endcan
             </div>
 

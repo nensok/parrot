@@ -13,7 +13,7 @@
         }
     </style>
 
-    <title>{{ config('app.name', 'Crosssift') }}</title>
+    <title>{{ config('app.name', 'Paarot') }}</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -33,8 +33,8 @@
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm fixed-top">
             <div class="container">
                 <a class="navbar-brand d-flex" href="{{ url('/post') }}">
-                    <div><img src="/svg/logo.svg" style="height: 35px; border-right: 1px solid #3333" class="pr-2"  alt="logo_svg"></div>
-                    <div class="pl-2 pt-1">Crosssift</div>
+                    <div><i class="fas fa-crow text-dark"></i></div>
+                    <div class="pl-2 pt-1">Paarot</div>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>
